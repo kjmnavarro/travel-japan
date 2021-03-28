@@ -1,0 +1,1 @@
+## Answers to Part 2 of Exam - SQL -- Kieffer Navarro

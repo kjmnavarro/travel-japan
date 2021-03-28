@@ -1,0 +1,390 @@
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*========================navbar==================*/
+.bg-traveljp{
+	/*background-color: #FE6323;*/
+	background-color: #1F1F29;
+}
+
+.navbar .navbar-brand{
+	padding: 10px;
+}
+
+.navbar .navbar-brand, .navbar .navbar-nav a, .dropdown .dropdown-menu, .navbar-nav .nav-item{
+	color: #FE6323;
+}
+
+.dropdown .dropdown-menu{
+	/*background-color: #FE6323;*/
+	background-color: #1F1F29;
+}
+
+.navbar .navbar-brand:hover, .dropdown .dropdown-menu > a.nav-link:hover, .navbar .navbar-nav .nav-item a:hover{
+	background-color: #FE6323;
+	color: #1F1F29;
+}
+
+/*============image boxes======*/
+.attr1{
+	width: 100%;
+	height: 80vh;
+}
+.attr2{
+	width: 100%;
+	height: 52.7vh;
+}
+.acco1{
+	width: 100%;
+	height: 33.65vh;
+}
+.acco2{
+	width: 100%;
+	height: 61vh;
+}
+.food1, .food2{
+	width: 100%;
+	height: 50vh;
+}
+
+.place-text {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	color: white;
+}
+
+.place-text h1{
+	font-size: 4rem;
+}
+
+.place-text p{
+	font-size: 1.1rem;
+}
+
+/*=========tokyo==============*/
+
+#banner-tokyo{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/tokyo/banner-tokyo.jpg');
+	height: 50vh;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+}
+
+i.fa-calendar-check-o, i.fa-camera, i.fa-spoon, i.fa-commenting{
+	font-size: 2.5rem;
+	color: #FE6323;
+}
+
+.attr_tokyo1{
+	background-image: url('/images/tokyo/3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.attr_tokyo2{
+	background-image: url('/images/tokyo/4.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_tokyo1{;
+	background-image: url('/images/tokyo/2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_tokyo2{
+	background-image: url('/images/tokyo/1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_tokyo1{
+	background-image: url('/images/tokyo/tokyofood1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_tokyo2{
+	background-image: url('/images/tokyo/tokyofood2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.btn-tgp{
+	padding: 10px 30px 10px 30px;
+	background-color: #FE6323;
+	color: #1F1F29;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.btn-tgp:hover{
+	background-color: #1F1F29;
+	color: #FE6323;
+}
+
+/*=======yokohama==============*/
+
+#banner-yokohama{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/yokohama/banner-yokohama.jpg');
+	height: 50vh;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+}
+
+.attr_yokohama1{
+	background-image: url('/images/yokohama/3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.attr_yokohama2{
+	background-image: url('/images/yokohama/4.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_yokohama1{;
+	background-image: url('/images/yokohama/2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_yokohama2{
+	background-image: url('/images/yokohama/1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_yokohama1{
+	background-image: url('/images/yokohama/yokofood1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_yokohama2{
+	background-image: url('/images/yokohama/yokofood2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*=======kyoto==============*/
+
+#banner-kyoto{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/kyoto/banner-kyoto.jpg');
+	height: 50vh;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+}
+
+.attr_kyoto1{
+	background-image: url('/images/kyoto/3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.attr_kyoto2{
+	background-image: url('/images/kyoto/4.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_kyoto1{;
+	background-image: url('/images/kyoto/2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_kyoto2{
+	background-image: url('/images/kyoto/1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_kyoto1{
+	background-image: url('/images/kyoto/kyotofood1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_kyoto2{
+	background-image: url('/images/kyoto/kyotofood2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*=======osaka==============*/
+
+#banner-osaka{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/osaka/banner-osaka.jpg');
+	height: 50vh;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+}
+
+.attr_osaka1{
+	background-image: url('/images/osaka/3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.attr_osaka2{
+	background-image: url('/images/osaka/4.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_osaka1{;
+	background-image: url('/images/osaka/2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_osaka2{
+	background-image: url('/images/osaka/1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_osaka1{
+	background-image: url('/images/osaka/osakafood1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_osaka2{
+	background-image: url('/images/osaka/osakafood2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*=======sapporo==============*/
+
+#banner-sapporo{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/sapporo/banner-sapporo.jpg');
+	height: 50vh;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+}
+
+.attr_sapporo1{
+	background-image: url('/images/sapporo/3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.attr_sapporo2{
+	background-image: url('/images/sapporo/4.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_sapporo1{;
+	background-image: url('/images/sapporo/2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_sapporo2{
+	background-image: url('/images/sapporo/1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_sapporo1{
+	background-image: url('/images/sapporo/sapporofood1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_sapporo2{
+	background-image: url('/images/sapporo/sapporofood2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*=======nagoya==============*/
+
+#banner-nagoya{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/nagoya/banner-nagoya.jpg');
+	height: 50vh;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+}
+
+.attr_nagoya1{
+	background-image: url('/images/nagoya/3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.attr_nagoya2{
+	background-image: url('/images/nagoya/4.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_nagoya1{;
+	background-image: url('/images/nagoya/2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.acco_nagoya2{
+	background-image: url('/images/nagoya/1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_nagoya1{
+	background-image: url('/images/nagoya/nagoyafood1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food_nagoya2{
+	background-image: url('/images/nagoya/nagoyafood2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.place-text h1{
+		font-size: 2rem;
+	}
+
+	.place-text p{
+		font-size: .8rem;
+	}
+
+	i.fa-bars{
+		color: #FE6323;
+	}
+}
