@@ -18,7 +18,8 @@ class LocationController extends Controller
 
     public function tokyo()
     {
-    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=88745926801b5e99be5cdc7b1987238b";
+    	$appkey = env('APP_ID_KIEFFER','');
+    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=".$appkey;
 		$json = file_get_contents($url);
 		$tokyo_data = json_decode($json, true);
 
@@ -29,7 +30,8 @@ class LocationController extends Controller
 
     public function yokohama()
     {
-    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Yokohama&appid=88745926801b5e99be5cdc7b1987238b";
+    	$appkey = env('APP_ID_KIEFFER','');
+    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Yokohama&appid=".$appkey;
 		$json = file_get_contents($url);
 		$yokohama_data = json_decode($json, true);
 
@@ -40,7 +42,8 @@ class LocationController extends Controller
 
     public function kyoto()
     {
-    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Kyoto&appid=88745926801b5e99be5cdc7b1987238b";
+    	$appkey = env('APP_ID_KIEFFER','');
+    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Kyoto&appid=".$appkey;
 		$json = file_get_contents($url);
 		$kyoto_data = json_decode($json, true);
 
@@ -51,7 +54,8 @@ class LocationController extends Controller
 
     public function osaka()
     {
-    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Osaka&appid=88745926801b5e99be5cdc7b1987238b";
+    	$appkey = env('APP_ID_KIEFFER','');
+    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Osaka&appid=".$appkey;
 		$json = file_get_contents($url);
 		$osaka_data = json_decode($json, true);
 
@@ -62,7 +66,8 @@ class LocationController extends Controller
 
     public function sapporo()
     {
-    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Sapporo&appid=88745926801b5e99be5cdc7b1987238b";
+    	$appkey = env('APP_ID_KIEFFER','');
+    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Sapporo&appid=".$appkey;
 		$json = file_get_contents($url);
 		$sapporo_data = json_decode($json, true);
 
@@ -73,7 +78,8 @@ class LocationController extends Controller
 
     public function nagoya()
     {
-    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Nagoya&appid=88745926801b5e99be5cdc7b1987238b";
+    	$appkey = env('APP_ID_KIEFFER','');
+    	$url = "https://api.openweathermap.org/data/2.5/weather?q=Nagoya&appid=".$appkey;
 		$json = file_get_contents($url);
 		$nagoya_data = json_decode($json, true);
 
